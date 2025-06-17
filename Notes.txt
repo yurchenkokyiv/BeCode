@@ -1,0 +1,26 @@
+Notes:
+
+    Integrates with main_monitor.sh (called via cron or manually).
+
+    Supports daily logging in ./logs/.
+
+    Can be extended to include iostat or vmstat for deeper analysis.
+
+Would you like the daily summary script (generate_report.sh) to include visualized stats (ASCII graphs or CSV output), or integrate this script with a dashboard format next?
+You said:
+Thanks
+ChatGPT said:
+
+You're very welcome! 😊
+
+If you need help with:
+
+    Integrating resource_monitor.sh into the main monitoring loop
+
+    Enhancing the alerts (e.g. Slack/Discord notifications)
+
+    Writing the generate_report.sh to format daily logs into CSV/HTML
+
+    Adding graphs or dashboards (like with gnuplot or bashplotlib)
+
+    Testing scripts or fixing permission issues
